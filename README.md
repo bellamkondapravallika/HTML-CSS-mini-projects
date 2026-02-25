@@ -5,9 +5,21 @@ I built these projects to strengthen my understanding of HTML structure and CSS 
 This repository includes small projects and exercises that helped me improve my frontend fundamentals.
 Some projects were inspired by learning platforms, and I implemented and practiced them independently.
 # 🚀 Projects Included
-☕ Cafe Menu Webpage
-🔐 Login Form
-📝 Registration Form
-📄 Landing Page
-🎨 CSS Styling Practice
-🖼️ Image Integration Practice
+🐻 Brown Bear
+🍔 Burger Form
+🐱 Cat Photo App
+👗 Fashion Blog
+📖 Form a Story
+🔗 Navigational Links
+🔢 Number Guess
+📝 Sign Up Form
+☕ Cafe Menu
+📄 Documentation Page
+📋 Form Design
+🐧 Penguin CSS Design
+🖼️ Photo Gallery
+🎹 Piano
+🛍️ Product Landing Page
+📊 Survey Form
+🏆 Tribute Page
+🎡 Wheel Design
