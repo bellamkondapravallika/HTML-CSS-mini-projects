@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles2.css">
+<head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+    <fieldset>
+      <label for="name-label"> Name:</label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <label for="email-label" > Email:</label>
+      <input id="email" type="email" placeholder="Enter your email" required>
+      <label for="number-label"> Age:</label>
+      <input id="number" type="number" min="0" max="120" placeholder="Enter your age">
+      </fieldset>
+      <fieldset class="field">
+        <legend>Gender:<legend>
+          <input type="radio" name="gender" id="gender" value="Male" class="inline"><label for="male">Male</label>
+          <input type="radio" name="gender" id="gender" value="Female" class="inline"><label for="female" >Female</label>
+          <legend>Who is the primary decision-maker in your family</legend>
+          <input type="checkbox" id="patriarchal" name="decision-maker" value="patriarchal" class="inline"><label for="patriarchal">Patriarchal</label>
+        <input type="checkbox" id="matriarchal" name="decision-maker" value="matriarchal"class="inline"><label for="matriarchal">Matriarchal</label>  
+        </fieldset>
+      <fieldset>
+        <label for="dropdown">How many members in your family?
+        <select id="dropdown">
+          <option value="">one member</option>
+          <option value="1">two members</option>
+          <option value="2">three members</option>
+          <option value="3">four members</option>
+          <option value="4">more than four</option>
+          </select>
+          </label>
+          <label for="comment" >is there anything to say?
+            <textarea id="comment" name="comment" rows="5" cols="30" placeholder="comment here"></textarea>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+    </body>
+    </head>
+  </html>
